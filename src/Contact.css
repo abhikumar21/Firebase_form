@@ -1,0 +1,52 @@
+
+/* .contact{
+    max-width: 70vw;
+
+} */
+
+
+.form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    outline: none;
+
+}
+
+.f{
+    padding: 15px;
+    margin: 25px;
+}
+
+.f label{
+    font-size: 25px;
+}
+.f input{
+   border: none;
+   width: 90%;
+   border-bottom: 2px solid black;
+   padding-top: 15px;
+   font-size: 20px;
+
+}
+
+.f input::placeholder {
+    font-size: 20px;
+    
+}
+
+.btn{
+    font-size: 25px;
+    border-radius: 250px;
+    color: aliceblue;
+    background-color: rgb(6, 143, 34);
+    border: none;
+    padding: 10px;
+    padding-left: 40px; 
+    padding-right: 40px;
+    
+}
+
+.btn:hover{
+    color: aliceblue;
+    background-color: rgb(4, 49, 184);
+}
